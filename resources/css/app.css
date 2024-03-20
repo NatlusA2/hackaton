@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: "Poppins", sans-serif;
+    z-index: -999;
+}
+
+.navbar-fixed {
+    @apply fixed z-[9999] bg-white bg-opacity-70;
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0 -1px 0 0 rgb(0, 0, 0, 0.2);
+}
+
+.hamburger-line {
+    @apply w-[30px] h-[2px] my-2 block bg-dark;
+}
+
+.hamburger-active > span:nth-child(1) {
+    @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+    @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+    @apply -rotate-45;
+}
+
+.italic-h4 {
+    font-style: italic;
+}
+
+/* Di file CSS Anda */
+.form-login,
+.form-regis {
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.form-login,
+.close,
+a {
+    pointer-events: auto;
+}

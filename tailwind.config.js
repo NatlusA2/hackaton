@@ -4,10 +4,27 @@ export default {
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
     "./resources/**/*.vue",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+      padding: '16px',
+    },
+    extend: {
+      colors: {
+        primary: '#0174BE',
+        secondary: '#D2DE32',
+        dark: '#0f172a',  
+        biru: '#2B6FAD',
+      },
+      screens: {
+        '2xl' : '1320px'
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
 
