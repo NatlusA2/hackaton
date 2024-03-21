@@ -13,6 +13,6 @@ class LogoutController extends Controller
         $request->session()->forget('user');
         Auth::logout();
 
-        return redirect()->route('login');
+        return redirect()->route('/');
     }
 }

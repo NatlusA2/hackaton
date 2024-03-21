@@ -5,7 +5,10 @@
 @csrf
     @vite('resources/css/app.css')
     
-    <h1 class=" text-[2rem] mr-[25px] font-medium text-center" >masuk</h1>
+    <div class="close  mr-[1rem] mb-[1rem]">
+    <a id="closeRegisModal" ><i style="font-size:24px" class="fa">&#xf00d;</i></a>
+    <h1 class=" text-[2rem] mr-[25px] font-medium text-center" >Register</h1>
+    </div>
     <div class="container">
     <div>
         <label class=" flex text-xl" for="name">Nama</label>

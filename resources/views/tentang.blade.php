@@ -33,44 +33,44 @@
 
 {{-- card --}}
 
-<section class="card mb-[10rem] sm:mb-[40rem]" >
-<div class="hero-about bg-biru mx-auto mt-[20rem] w-[100%] p-[3rem] h-[55rem] lg:mt-[15rem] sm:h-[100rem]" >
+<section class="card mb-[10rem] mb-[20rem] lg:mb-[2rem]" >
+<div class="hero-about bg-biru mx-auto mt-[20rem] w-[100%] p-[3rem] h-[60rem] lg:mt-[15rem] " >
 <div class="judul ml-[5.5rem] ">
-    <h1 class=" text-white text-center font-bold text-[25px] lg:text-[42px] mb-7" >Properti Kami</h1>
+    <h1 class=" text-white text-center mr-28 font-bold text-[25px] lg:text-[42px] mb-7 lg:text-center" >Properti Kami</h1>
     </div>
      <div class="container ">
-        <div class=" ml-[3rem] lg:gap-5 lg:grid lg:grid-cols-2">
+        <div class=" ml-[1rem] lg:gap-5 lg:grid lg:grid-cols-2 lg:ml-[3rem]">
         
             <!-- Cards 1 -->
-            <div class="bg-white border pb-6 border-gray-200 shadow-xl rounded-lg p-1 w-[30rem]  h-[37rem] sm:mb-7  ">
+            <div class="bg-white border pb-6 border-gray-200 shadow-xl rounded-lg p-1 w-[30rem] sm:mb-7 h-[30rem] lg:h-[35rem] ">
                 {{-- Image --}}
-                <img class="rounded-lg mx-auto my-5 h-48 w-[25rem] object-cover" src="./img/1.png" alt=""/>
-                <div class="text-left p-[2rem]">
-                <h1 class=" text-blue-800 font-bold text-[25px] lg:text-[35px]" >Cari Properti</h1>
-                <h3 class=" font-semibold mb-2" >Segera temukan hunian impianmu melalui Homespot.</h3>
-                <p>Tingkatkan pengalaman pencarian properti Anda dengan mengunjungi website kami, di sana Anda akan menemukan beragam pilihan properti yang sesuai dengan kebutuhan dan impian Anda.</p>
+                <img class="rounded-lg mx-auto my-5 h-[10rem] w-[25rem] object-cover lg:h-[12rem] " src="./img/1.png" alt=""/>
+                <div class="text-left p-[1em]">
+                <h1 class=" text-blue-800 font-bold text-[23px] lg:text-[35px]" >Cari Properti</h1>
+                <h3 class=" font-semibold mb-2 " >Segera temukan hunian impianmu melalui Homespot.</h3>
+                <p class="text-[14px] lg:text-[16px]" >Tingkatkan pengalaman pencarian properti Anda dengan mengunjungi website kami, di sana Anda akan menemukan beragam pilihan properti yang sesuai dengan kebutuhan dan impian Anda.</p>
                 </div>
                 <!-- Button  -->
-                <div class=" flex justify-center">
-                    <a href="#" class="inline-flex items-center px-32 py-1.5 text-sm font-medium text-white bg-orange-500 rounded-full border-2 hover:text-gray-600 focus:z-10 focus:ring-2 focus:ring-black focus:text-black lg:px-12 lg:mt-5">
-                        beli Properti
+                <div class=" flex justify-center ">
+                    <a href="#" class="inline-flex items-center mb-[20rem] mt-[2.2rem] px-32 py-1.5 text-sm font-medium text-white bg-orange-500 rounded-full border-2 hover:text-gray-600 focus:z-10 focus:ring-2 focus:ring-black focus:text-black lg:px-12 lg:mt-[3.4rem]  ">
+                        cari Properti
                     </a>
                 </div>
                 
             </div>
 
             <!-- Cards 2 -->
-            <div class="bg-white border pb-6 border-gray-200 shadow-xl rounded-lg p-1 w-[30rem]  h-[37rem]">
+            <div class="bg-white border pb-6 border-gray-200 shadow-xl rounded-lg p-1 w-[30rem]  h-[30rem] lg:h-[35rem] ">
                 {{-- Image --}}
-                <img class="rounded-lg mx-auto my-5  h-48 w-[25rem] object-cover" src="./img/2.png" alt=""/>
+                <img class="rounded-lg mx-auto my-5 h-[10rem] w-[25rem] object-cover lg:h-[12rem]" src="./img/2.png" alt=""/>
                 <div class="text-left p-[2rem]">
                 <h1 class=" text-blue-800 font-bold text-[25px] lg:text-[35px]" >Pilih Properti</h1>
-                <h3 class=" font-semibold mb-2" >Jadikan Homespot sebagai bagian dari perjalanan anda berikutnya, dengan memilih hunian sesuai dengan impian.</h3>
-                <p class=" text-[14px]" >Jelajahi ragam luas pilihan properti yang kami tawarkan di website kami, dari rumah mewah hingga apartemen modern, kami memiliki semuanya untuk memenuhi berbagai kebutuhan dan selera Anda.</p>
+                <h3 class=" font-semibold mb-2" >Jadikan Homespot sebagai bagian dari perjalanan anda berikutnya.</h3>
+                <p class=" text-[14px] lg:text-[16px]" >Jelajahi ragam luas pilihan properti yang kami tawarkan di website kami, dari rumah mewah hingga apartemen modern</p>
                 </div>
                 <!-- Button  -->
                 <div class=" flex justify-center">
-                    <a href="#" class="inline-flex items-center px-32 py-1.5 text-sm font-medium text-white bg-orange-500 rounded-full border-2 hover:text-gray-600 focus:z-10 focus:ring-2 focus:ring-black focus:text-black lg:px-12 lg:mt-5">
+                    <a href="#" class="inline-flex items-center px-32 py-1.5 text-sm font-medium text-white bg-orange-500 rounded-full border-2 hover:text-gray-600 focus:z-10 focus:ring-2 focus:ring-black focus:text-black lg:px-12 lg:mt-6">
                         beli Properti
                     </a>
                 </div>
@@ -80,5 +80,32 @@
     </div>
 </div>
 </section>
+
+{{-- kpr --}}
+<section>
+    <div class="container mx-auto px-4 mt-8 mb-5 bg-white rounded-lg border-slate-100 border-2 shadow-md shadow-slate-700 p-2  ">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- Card 1 -->
+          <div class=" flex justify-center">
+            <div class="p-4 ">
+              <img src="./img/kpr.png " class="flex justify-center items-center" alt="">
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="">
+            <div class="p-4">
+              <h3 class="text-3xl font-semibold mb-2 text-primary">Kalkulasi KPR</h3>
+              <p class=" font-bold mb-2 text-sm">Hitung estimasi angsuran KPR perbulan anda menggunakan kalkulator ini</p>
+              <p class="text-sm font-light">Perhitungan ini adalah hasil perkiraan aplikasi KPR secara umum. Data Perhitungan di atas dapat berbeda dengan perhitungan bank. Untuk perhitungan yang akurat, silahkan hubungi kantor cabang kami</p>
+              <div class="flex justify-center items-center py-4 mt-5">
+                <button type="button" class="focus:outline-none text-white bg-orange-400 hover:bg-orange-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2   ">Kalkulator</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+{{-- end kpr --}}
 
 @endsection

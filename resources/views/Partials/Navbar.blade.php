@@ -3,7 +3,7 @@
     <div class="container">
         <div class="flex items-center justify-between relative">
             <div class="px-4">
-                <a href="#home" class="font-bold text-lg text-primary block py-2">
+                <a href="/" class="font-bold text-lg text-primary block py-2">
                 <img src="/img/logo.png" width="120px" alt="Flowbite Logo" /></a>
             </div>
             <div class="flex items-center px-4">
@@ -51,7 +51,7 @@
     
                         </li>
                         <li class="group">
-                            <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beli</a>
+                            <a href="/beli" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beli</a>
                         </li>
                         <li class="group">
                             <a href="/tentang" class="text-base  text-dark py-2 mx-8 flex group-hover:text-primary">Tentang Kami</a>
@@ -98,7 +98,7 @@
                         @guest
                         <ul class="group ml-10 lg:mx-[-10px]">
                             
-                            <button type="button" id="loginButton" class="inline-flex items-center px-10 py-2 font-xs text-red-400 bg-white hover:bg-red-400 rounded-md border-2 border-red-400 hover:bg-red hover:text-white focus:z-10 focus:ring-2 focus:ring-red-400 focus:text-red-400"> Daftar / Login </button>
+                            <button type="button" id="loginButton" class="inline-flex items-center px-10 py-2 font-xs text-blue-800 bg-white hover:bg-blue-400 rounded-md border-2 border-blue-800 hover:bg-red hover:text-white focus:z-10 focus:ring-2 focus:ring-blue-800 focus:text-blue-800"> Daftar / Login </button>
                         </ul>
                         @endguest
                     </ul>
