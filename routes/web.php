@@ -19,7 +19,9 @@ Route::get('/register', 'App\Http\Controllers\Auth\RegisterController@showRegist
 // Memproses permintaan registrasi
 Route::post('/register', 'App\Http\Controllers\Auth\RegisterController@register');
 
-
+Route::get('/beli', function () {
+    return view('beli');
+});
 
 
 // Menampilkan form login
